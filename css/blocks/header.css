@@ -1,0 +1,154 @@
+header {
+    background-color: #F2F3F6;
+    padding: 30px 15px 30px 22px;
+    position: relative;
+}
+
+.container {
+
+    padding-top: 30px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.logo {
+    width: 90px;
+    cursor: pointer;
+    display: block;
+    
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header_menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.6s all;
+    margin: 0;
+    z-index: 20;
+}
+
+.menu_active {
+    left: 0;
+}
+
+.menu_links a {
+    width: 15%;
+    list-style: none;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    transition-duration: 0.5s;
+}
+
+.menu_link:hover {
+    color: #1A75E8;
+transition-duration: 1s;
+}
+
+.sign-in {
+    border: none;
+    background-color: #F2F3F6;
+    font-style: Regular;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+}
+
+.Registration {
+    border: none;
+    background-color: #1A75E8;
+    color: #ffffff;
+    border-radius: 4px;
+    font-style: Regular;
+    font-size: 16px;
+    padding: 15px 20px 15px 20px;
+   
+
+}
+
+.header_box {
+    display: none;
+}
+
+.burger-icon {
+    position: absolute;
+    display: flex;
+    right: 10px;
+    top: 50%;
+
+}
+
+.hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+}
+
+.hamburger span {
+    display: block;
+    width: 24px;
+    margin-bottom: 5px;
+    border: 2px solid #111238;
+    border-radius: 10px;
+    transition: 0.5s linear;
+
+}
+
+.hamburger_active span:nth-child(2) {
+    display: none;
+
+}
+
+.hamburger_active span:nth-child(1) {
+    transform: translateY(5px) rotate(-45deg);
+
+}
+
+.hamburger_active span:nth-child(3) {
+    transform: translateY(-5px) rotate(45deg);
+
+}
+
+.slogan {
+    color: #111238;
+    text-align: center;
+    font-size: 24px;
+    font-family: Fira Sans;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.slogan_p {
+    color: #111238;
+    text-align: center;
+    font-size: 16px;
+    font-family: Fira Sans;
+    line-height: 140%;
+    margin-bottom: 51px;
+}
+
+.card_link {
+    color: var(--buttons-primary, #1A75E8);
+    font-size: 14px;
+    font-family: Fira Sans;
+margin: 30px 0 30px 0;
+}

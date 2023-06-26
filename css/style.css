@@ -1,0 +1,5 @@
+@import "./blocks/variables.css";
+@import "./blocks/header.css";
+@import "./blocks/media.css";
+@import "./blocks/main.css";
+@import url(./blocks/footer.css);
