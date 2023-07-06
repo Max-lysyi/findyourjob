@@ -1,3 +1,110 @@
+
+    .main-paight_desktop {
+      
+        flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #F2F3F6;
+    
+    }
+    .sfv_desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 500px;
+    height: 90px;
+    
+    border-radius: 5px;
+    background-color: #ffffff;
+    }
+    .input_desktop {
+    border: none;
+    outline: none;
+    height: 30px;
+    font-family: Fira Sans ;
+    font-size: 16px ;
+    
+    
+    }
+    .sfv-button_desktop {
+        display: flex;
+        align-items: center;
+    background-color: #1A75E8;
+    padding: 15px 30px 15px 30px;
+    position: relative;
+    border-radius: 5px;
+    }
+    .svg-1_desktop {
+    position: absolute;
+    
+    }
+    .search_for_vacancies_desktop {
+        border: none;
+        background-color: #1A75E8;
+        color: #ffffff;
+        margin-left: 15px;
+        font-family: Fira Sans ;
+        font-style: Regular ;
+        font-size: 16px ;
+    }
+    
+    .main-paight_title_desktop {
+        font-family: Fira Sans ;
+    font-style: Black ;
+    font-size: 44px ;
+    line-height: 53px ;
+    margin-bottom: -10px;
+    }
+    .main-paight_p_desktop {
+        font-family: Fira Sans ;
+        font-style: Regular ;
+        font-size: 20px ;
+        line-height: 25px ;
+        margin-bottom: 50px;
+    
+    }
+    
+    
+    .list_items_desktop {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .list-of-works_desktop {
+        border: none;
+        text-align: center;
+        color: #B2B2B2;
+        font-size: 14px;
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        
+    }
+    .list_items_desktop {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .list_items_desktop li {
+        font-size: 14px;
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        padding: 5px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 5px;
+        border: 1px solid #B2B2B2;
+        margin: 0 10px 0 10px;
+    }
+    
 .main_page {
     background-color: #F2F3F6;
     padding-top: 1px;
@@ -7,6 +114,11 @@
 .search {
     display: flex;
     justify-content: center;
+
+}
+.sfv_bodie {
+display: flex;
+justify-content: center;
 
 }
 
@@ -46,9 +158,6 @@
     background-color: #1A75E8;
     color: #ffffff;
 
-    font-family: Fira Sans;
-    font-style: Regular;
-
 }
 
 .search_for_vacancies p {
@@ -56,7 +165,8 @@
     font-size: 16px;
 }
 
-.list {
+.list_items {
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,20 +174,32 @@
 }
 
 .list-of-works {
+    border: none;
+    text-align: center;
     color: #B2B2B2;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
+    font-size: 14px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 15px 0 25px 0;
 }
 
 
-.list li {
-    border: 2px solid;
-    border-color: #dddcdc;
-    padding: 3px;
+.list_items li {
+    font-size: 14px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid #B2B2B2;
     margin: 0 10px 0 10px;
-    border-radius: 8px;
-    color: #B2B2B2;
 
 }
 
@@ -85,12 +207,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 55px;
+    
     padding-bottom: 40px;
 
 }
 
-.title-1 {
+.categories_title {
+    text-align: center;
     margin: 50px 0 40px 0;
 
 }
@@ -117,49 +240,72 @@
 
 }
 
-.categories {
 
+.categories_list {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
-
-
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 
 .categorie_img {
     margin-bottom: 15px;
 
 }
-
-.title-2 {
+.main-paight {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+    }
+    
+.vacancies_title {
+    text-align: center;
     margin: 80px 0 40px 0;
 
 }
 
-.vacancies {
+.vacancies_list {
+    padding: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
 }
+.vacancies_btn {
+display: flex;
+justify-content: center;
+margin: 45px 0 50px 0;
+
+}
+.vacancies_btn button {
+    
+    display: flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--buttons-primary, #1A75E8);
+    border: none;
+color: #ffffff;
+}
+
 
 .card {
     display: flex;
-    width: 290px;
-    margin-bottom: 20px;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 30px;
     border-radius: 10px;
     border: 1px solid var(--cards-border, #C5C9D4);
-
+    
 }
 
 .employment {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
 
 }
@@ -176,7 +322,6 @@
 }
 
 .card_img {
-    margin-top: 30px;
     width: 100px;
     height: 100px;
     border-radius: 100px;
@@ -197,23 +342,19 @@
     border: none;
     cursor: pointer;
 }
-.subscribe {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-background-color: #F2F3F6;
-padding: 70px 0 70px 0;
-}
-.subscribe_title {
-    color: var(--text-primary, #111238);
-text-align: center;
-font-size: 24px;
-font-family: Fira Sans;
-font-weight: 900;
 
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2F3F6;
+    padding: 70px 0 70px 0;
 }
-.subscribe_p {
+
+
+
+.subscribe_p_1 {
     color: var(--text-primary, #111238);
     text-align: center;
     font-size: 18px;
@@ -221,4 +362,14 @@ font-weight: 900;
     line-height: 140%;
     margin: -10px 0 55px 0;
 
+}
+.subscribe_p_2 {
+    color: var(--text-primary, #111238);
+text-align: center;
+font-family: Fira Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+margin: -10px 0 55px 0;
 }

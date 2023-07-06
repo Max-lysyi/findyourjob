@@ -3,6 +3,25 @@
         width: 100%;
         margin: 0 auto;
     }
+
+    .hero-image img {
+        width: 252.448px;
+    }
+
+    .main-paight_desktop {
+        display: none;
+    }
+
+    .hero-image {
+
+        margin-top: 50px;
+    }
+
+    .card {
+        flex-direction: column;
+        width: 290px;
+    }
+
 }
 
 @media(min-width: 576px) {
@@ -15,9 +34,16 @@
         width: 150px;
     }
 
+
+
+    .hero-image img {
+        width: 545px;
+    }
+
 }
 
 @media(min-width: 768px) {
+
     .container {
         max-width: 720px;
     }
@@ -44,10 +70,44 @@
     .header_box {
         display: block;
     }
+
     .search_for_vacancies p {
         display: block;
     }
-    
+
+
+
+}
+
+@media(max-width: 992px) {
+    .card_img {
+        margin-top: 30px;
+
+    }
+
+    .employment {
+        align-items: center;
+    }
+
+    .subscribe_title {
+        width: 290px;
+        color: var(--text-primary, #111238);
+        text-align: center;
+        font-size: 24px;
+        font-family: Fira Sans;
+        font-weight: 900;
+    }
+
+    .subscribe_p_2 {
+        display: none;
+
+    }
+    .list_desktop {
+        display: none;
+    }
+    .list {
+        display:block;
+    }
 }
 
 @media(min-width:992px) {
@@ -55,11 +115,62 @@
         max-width: 960px;
         font-size: 16px;
     }
+
+    .main-paight_desktop {
+        display: flex;
+    }
+
+    .main_page {
+        display: none;
+    }
+
+    .hero-image {
+margin-left: 100px;
+        margin-top: -20px;
+    }
+
+    .card {
+        justify-content: space-evenly;
+        width: 1146px;
+        height: 160px;
+        flex-direction: row;
+    }
+
+    .list {
+        flex-direction: row;
+    }
+
+    .subscribe_title {
+        width: 460px;
+        text-align: center;
+        font-family: Fira Sans;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+    .subscribe_p_1 {
+        display: none;
+
+    }
+    .list_desktop {
+        display: flex;
+    
+    }
+    .list {
+        display: none;
+    }
+
+
+
 }
 
 @media(min-width:1200px) {
     .container {
         max-width: 1140px;
     }
+
+
 
 }

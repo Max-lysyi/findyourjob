@@ -6,7 +6,7 @@ header {
 
 .container {
 
-    padding-top: 30px;
+   
     justify-content: space-between;
     text-decoration: none;
 }
@@ -124,7 +124,7 @@ transition-duration: 1s;
 }
 
 .hamburger_active span:nth-child(3) {
-    transform: translateY(-5px) rotate(45deg);
+    transform: translateY(-3px) rotate(45deg);
 
 }
 
